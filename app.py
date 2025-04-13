@@ -24,7 +24,7 @@ st.title("🧬 OneStop-RNA Analysis")
 # 🔰 User Guide Panel
 with st.expander("📘 USER GUIDE — How to Use This Tool", expanded=True):
     st.markdown("""
-    Welcome to **OneStop-RNA Analysis** — a simple tool to perform **differential expression analysis** using RNA-seq raw count matrices and metadata files.
+    Welcome to **OneStop-RNA Analysis** — a simple tool to perform **differential expression analysis** from Bulk RNA Seq data using raw count matrices and metadata files.
 
     ### 🔧 Input Requirements
 
