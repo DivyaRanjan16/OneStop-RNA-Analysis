@@ -210,6 +210,10 @@ if counts_file and meta_file:
     csv = deg_df.to_csv(index=False).encode('utf-8')
     st.download_button("Download DEG Results (CSV)", csv, "DEG_results.csv", "text/csv")
 
+    pca_buf = BytesIO()
+    fig_pca.savefig(pca_buf, format="png")
+    st.download_button("Download PCA Plot", pca_buf.getvalue(), "PCA_PLOT.png", "image/png")
+
     volcano_buf = BytesIO()
     fig_volcano.savefig(volcano_buf, format="png")
     st.download_button("Download Volcano Plot", volcano_buf.getvalue(), "volcano_plot.png", "image/png")
