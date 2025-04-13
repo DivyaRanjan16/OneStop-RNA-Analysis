@@ -75,10 +75,10 @@ with st.expander("📘 USER GUIDE — How to Use This Tool", expanded=True):
     - `heatmap_top20_DEGs.png`: Expression heatmap of top DEGs
 
     ---
-    ⚙️ Developed by *Divya Ranjan Pradhan*. Powered by Streamlit + StatsModels + Seaborn.
+    ⚙️ Developed by *Divya Ranjan Pradhan*. Powered by Streamlit, StatsModels and Seaborn.
     """)
 
-"""**BACKEND starts from here**"""
+# === BACKEND starts from here ===
 
 # === FILE UPLOAD ===
 st.header("📂 Upload Files")
