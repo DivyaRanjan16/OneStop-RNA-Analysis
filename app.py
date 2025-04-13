@@ -16,7 +16,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import statsmodels.formula.api as smf
 from statsmodels.stats.multitest import multipletests
-import io
+import io from BytesIO
 
 st.set_page_config(page_title="OneStop-RNA Analysis", layout="wide")
 
