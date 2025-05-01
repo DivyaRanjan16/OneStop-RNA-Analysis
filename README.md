@@ -10,9 +10,11 @@ Data Input
 •	Count Matrix (.csv): Contains Rows having genes and columns having the sample ids.
 •	Metadata file (.csv): contains rows having sample ids and columns having sample condition information (like condition and treated)
 
-The Output after analysis would seem as follows:
+
 ![image](https://github.com/user-attachments/assets/d55adcaa-81d8-4d59-9ccf-3b134516850a)
 ![image](https://github.com/user-attachments/assets/f55908f0-b653-4ff4-abb5-f1ee806d3983)
+
+The Output after analysis would seem as follows:
 ![image](https://github.com/user-attachments/assets/08fbf6e1-78f7-49ad-914a-aa8ae02f2cba)
 ![image](https://github.com/user-attachments/assets/2f50d0f6-f5cf-4fc7-a1f5-f0819fee92f0)
 ![image](https://github.com/user-attachments/assets/7b650e28-b9af-4b9c-9705-80365c30178d)
